@@ -2,6 +2,7 @@
     width: 65%;
     margin: 70px auto;
     position: relative;
+    height: 80%;
 }
 
 #section .cont-item:hover {
@@ -17,11 +18,9 @@
 .cont-item {
     cursor: pointer;
     background-color: var(--color10);
-    color: white;
-    width: 190px;
+    color: var(--text-color-white);
+    width: 24%;
     display: inline-block;
-    /* box-shadow: 0.5px 0.1px 8px 0.01px var(--color1); */
-    /* box-shadow: 0px 0.5px 8px 0.1px var(--color1); */
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
         rgba(17, 17, 26, 0.1) 0px 8px 24px,
         rgba(17, 17, 26, 0.1) 0px 16px 56px;
@@ -37,34 +36,40 @@
 }
 
 .emprestimo {
-    height: 350px;
-    margin-top: 20px;
+    margin-top: 10%;
     display: flex;
     justify-content: space-between;
-    
+    height: 40%;
 }
 
 .emprestimo-item:hover {
-    border: 1px solid var(--color10);
+    border: 2px solid var(--color-border);
 
 }
 
 h3.card-titlos {
-    color: var(--color10);
+    color: var(--text-titulo);
+}
+
+html,
+body {
+    height: 100%;
 }
 
 .emprestimo-item {
-    background-color: white;
+    height: 100%;
+    min-height: 300px;
+    background-color: var(--card-color);
     box-shadow: 0.5px 0.1px 8px 0.1px var(--color1);
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
         rgba(17, 17, 26, 0.1) 0px 8px 24px,
         rgba(17, 17, 26, 0.1) 0px 16px 56px;
     padding: 20px;
     display: inline-block;
-    height: 300px;
     border-radius: 10px;
-    border: 1px solid transparent;
-    transition: 0.5s;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 .item-1 {

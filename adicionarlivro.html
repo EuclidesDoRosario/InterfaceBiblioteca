@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/adicionarlivro.css">
     <title>Biblioteca UL</title>
 </head>
 
@@ -79,66 +80,30 @@
 
     </div>
 
-    <section id="section">
+    <section id="section"> 
+        <h3>Prencha as Informaçoes do livro</h3>
+        <form action="#" method="post">
 
-        <div class="cont">
-            <div class="cont-item">
-                <h4>Emprestimo</h2>
-                    <h2>45</h2>
-            </div>
+            <p>Titulo</p>
+            <input type="text" name="titulo" required>
+            <p>Autor</p>
+            <input type="text" name="autor" required>
+            <p>Isbn</p>
+            <input type="text" name="autor" required>
+            <p>Quantidade Exemplares</p>
+            <input type="number" name="autor" min="1" required>
+            <p>Editora</p>
+            <input type="text" name="autor" required>
+            <p>Edição</p>
+            <input type="text" name="autor" required>
+            <p>Volume</p>
+            <input type="number" name="autor" required>
+            <p>Ano</p>
+            <input type="number" name="autor" required min="1000"> <br>
 
-            <div class="cont-item">
-                <h4>Emprestimo em Atraso</h2>
-                    <h2>15</h2>
-            </div>
+            <input type="submit" value="Cadastrar">
 
-            <div class="cont-item">
-                <h4>Reservas</h2>
-                    <h2>10</h2>
-            </div>
-        </div>
-
-        <div class="emprestimo">
-
-            <div class="emprestimo-item item-1">
-
-                <h3 class="card-titlos">Emprestimo em atraso</h3>
-
-                <table id="emprestimo-atrasa">
-                    <tr id="head-list">
-                        <td>Nome</td>
-                        <td>Data Limite</td>
-                    </tr>
-                    <tr class="tr">
-                        <td>Alfreds Futterkiste</td>
-                        <td class="data">23-06-2023</td>
-                    </tr>
-                    <tr class="tr">
-                        <td>Centro comercial Moctezuma</td>
-                        <td class="data">23-06-2023</td>
-                    </tr>
-                    <tr class="tr">
-                        <td>Ernst Handel</td>
-                        <td class="data">23-06-2023</td>
-                    </tr>
-                    <tr class="tr">
-                        <td>Island Trading</td>
-                        <td class="data">23-06-2023</td>
-                    </tr>
-                    <tr class="tr">
-                        <td>Laughing Bacchus Winecellars</td>
-                        <td class="data">23-06-2023</td>
-                    </tr>
-                </table>
-
-            </div>
-
-            <div class="emprestimo-item item-2">
-                <h3 class="card-titlos"></h3>
-
-            </div>
-
-        </div>
+        </form>
 
     </section>
 

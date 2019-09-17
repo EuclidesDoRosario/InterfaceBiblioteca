@@ -9,14 +9,35 @@
 }
 
 
+#tema {
+    cursor: pointer;
+    border: 0px;
+    background-color: white;
+    padding: 5px;
+    top: 0%;
+    transform: translateY(-5%);
+}
+
+#tema ion-icon {
+    font-size: 25pt;
+}
+
+
 #header {
     padding: 10px;
     border-bottom: 2px solid var(--color7);
     display: flex;
     justify-content: space-between;
-    background-color: white;
-
 }
+
+body,
+header,
+#tema,
+#set-user a ion-icon {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color);
+}
+
 
 #header h1 {
     /* font-family: 'Lobster',
@@ -31,7 +52,6 @@
 
 #set-user a ion-icon {
     font-size: 30pt;
-    color: var(--color5);
 }
 
 
@@ -89,6 +109,7 @@
     position: relative;
     font-size: 1.5rem;
 }
+
 
 .navegacao ul li .icon ion-icon {
     position: relative;

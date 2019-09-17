@@ -1,7 +1,7 @@
 #section {
-    width: 880px;
+    width: 70%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 50px !important;
     padding: 10px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 #section table tr th {
-    color: var(--color10);
+    color: var(--text-titulo);
 }
 
 #section table tr td,
@@ -39,7 +39,8 @@ th {
 #pesquisa input {
     width: 100%;
     transform: translateX(15px);
-    border: 2px solid var(--color10);
+    border: 2px solid var(--color-border);
+    background-color: var(--text-color-white);
     border-radius: 5px;
     padding: 8px;
 }
@@ -69,7 +70,7 @@ th {
 }
 
 .qtd-livro {
-    padding-left: 9%;
+    padding-left: 7%;
 }
 
 .atraso span {
@@ -80,18 +81,33 @@ th {
     color: rgba(255, 5, 5, 0.8);
 }
 
-
-
-/* .sem-livro {
-    border: 2px solid rgba(36, 193, 83, 0.2);
-    color: rgba(36, 193, 83, 0.8);
+#add-livro {
+    text-decoration: none;
+    color: var(--text-color-white);
 }
 
-.em-posse {
-    border: 2px solid rgba(0, 195, 255, 0.2);
-    color: rgba(0, 195, 255, 0.8);
-} */
+#add-livro {
+    cursor: pointer;
+    display: block;
+    color: var(--text-color-white) !important;
+    padding: 10px;
+    margin-top: 120px;
+    position: relative;
+    display: flex;
+    background-color: var(--bg-btn);
+}
 
-/* Emprestimo */
+#add-livro ion-icon {
+    font-size: 18pt;
+    cursor: pointer;
+}
 
-td.data-time {}
+#add-livro label {
+    margin: 5px;
+    cursor: pointer;
+}
+
+#add-livro:hover {
+    background-color: var(--color7);
+    transition: 0.3s;
+}
