@@ -1,0 +1,126 @@
+#section {
+    width: 65%;
+    margin: 70px auto;
+    position: relative;
+}
+
+#section .cont-item:hover {
+    background-color: var(--color10-2);
+    /* color: var(--color1); */
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-item {
+    cursor: pointer;
+    background-color: var(--color10);
+    color: white;
+    width: 190px;
+    display: inline-block;
+    /* box-shadow: 0.5px 0.1px 8px 0.01px var(--color1); */
+    /* box-shadow: 0px 0.5px 8px 0.1px var(--color1); */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.cont-item h2 {
+    margin-top: 20px;
+    font-size: 20pt;
+}
+
+.emprestimo {
+    height: 350px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.emprestimo-item:hover {
+    border: 1px solid var(--color10);
+
+}
+
+h3.card-titlos {
+    color: var(--color10);
+}
+
+.emprestimo-item {
+    background-color: white;
+    box-shadow: 0.5px 0.1px 8px 0.1px var(--color1);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    padding: 20px;
+    display: inline-block;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.item-1 {
+    width: 60%;
+}
+
+.item-1 h3 {
+    margin-bottom: 20px;
+}
+
+.item-2 {
+    width: 24%;
+}
+
+#aside {
+    height: 75%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 200px;
+    background-color: var(--color10);
+    position: fixed;
+    float: right;
+    left: 90%;
+    top: 50%;
+    transform: translateY(-45%);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.emprestimo-atrasa tr {
+    text-align: left;
+}
+
+table#emprestimo-atrasa {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 8px 8px 8px 8px;
+}
+
+tr.tr {
+    border-bottom: 1px solid var(--color7);
+    padding: 5px;
+}
+
+.tr:hover {
+    background-color: var(--color8);
+}
+
+.data,
+#head-list {
+    color: var(--color4);
+}

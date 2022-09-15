@@ -1,0 +1,128 @@
+@import url(color.css);
+
+section#section-leitor {
+
+    width: 900px;
+    height: 480px;
+    margin: auto;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 10px;
+}
+
+div#info-leitor {
+
+    width: 40%;
+    text-align: center;
+}
+
+div#info-leitor div ion-icon {
+    font-size: 40pt;
+    font-weight: 100;
+    margin: auto;
+    transform: translateY(40%);
+}
+
+/* div#info-leitor info-leitor-in {} */
+
+div#info-leitor div#icon {
+    border: 2px solid var(--color10);
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+div#info-leitor-in {
+    top: 50%;
+    transform: translateY(40%);
+    line-height: 2;
+}
+
+div#livro-leitor {
+    /* background-color: rgb(79, 67, 51); */
+    width: 60%;
+}
+
+div#livro-leitor h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+div#livro-leitor table {
+    box-shadow: rgba(17, 17, 26, 0.051) 0px 4px 16px,
+        rgba(17, 17, 26, 0.048) 0px 8px 24px,
+        rgba(17, 17, 26, 0.031) 0px 16px 56px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+div#livro-leitor div {
+    border-radius: 5px solid var(--color10);
+    margin: auto;
+    transform: translateY(20%);
+}
+
+div#btn-add-remove {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+div#livro-leitor div a ion-icon {
+    font-size: large;
+}
+
+div#livro-leitor div a {
+    cursor: pointer;
+    background-color: var(--color10);
+    display: block;
+    width: 140px;
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.051) 0px 4px 16px,
+        rgba(17, 17, 26, 0.048) 0px 8px 24px,
+        rgba(17, 17, 26, 0.031) 0px 16px 56px;
+}
+
+/* div#livro-leitor div a.remover {} */
+
+#livro-leitor input.checkbook {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 30px;
+    height: 20px;
+}
+
+#livro-leitor input.checkbook:checked td {
+    display: none;
+}
+
+.remover {
+    background-color: grey !important;
+}
+
+#livro-leitor span.atrasado {
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgba(255, 5, 5, 0.8);
+}
+
+#livro-leitor span.em-posse {
+    background-color: rgba(0, 255, 128, 0.1);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgba(29, 173, 101, 0.993);
+}

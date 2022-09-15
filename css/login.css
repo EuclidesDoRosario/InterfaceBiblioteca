@@ -1,0 +1,109 @@
+@import url(color.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.section {
+    height: 590px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    top: 50%;
+}
+
+.section #circle {
+    background-color: var(--color1);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    top: 50%;
+    transform: translateY(0%);
+    border-radius: 100%;
+}
+
+.section .card-login {
+    display: block;
+    height: 590px;
+    display: inline-block;
+}
+
+#img-login {
+    width: 50%;
+    filter: blur(3px);
+
+}
+
+#imagem img {
+    display: block;
+    border-radius: 100%;
+    width: 300px;
+    margin: auto;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+#form {
+    width: 40%;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+#form:hover {
+    background-color: var(--color8);
+}
+
+#form form {
+    display: block;
+    margin: auto;
+    width: 250px;
+    top: 50%;
+    transform: translateY(50%);
+}
+
+#form form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40pt;
+}
+
+#form form label {
+    color: var(--color10);
+}
+
+#form form input {
+    display: block;
+    width: 250px;
+    margin: auto;
+    height: 25px;
+    border: 1.5px solid var(--color10);
+    border-radius: 5px;
+}
+
+form span {
+    color: var(--color1);
+}
+
+.submit,
+.submit input {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--color10);
+    width: 100px !important;
+    height: 30px !important;
+}
+
+.submit:hover input {
+    background-color: var(--color10);
+    color: white;
+}

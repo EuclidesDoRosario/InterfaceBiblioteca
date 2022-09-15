@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url(color.css);
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#header {
+    padding: 10px;
+    border-bottom: 2px solid var(--color7);
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+#header h1 {
+    /* font-family: 'Lobster',
+        cursive; */
+    padding-left: 13px;
+}
+
+#header h1,
+#set-user {
+    display: inline-block;
+}
+
+#set-user a ion-icon {
+    font-size: 30pt;
+    color: var(--color5);
+}
+
+
+.navegacao {
+    z-index: 10;
+    position: fixed;
+    margin-left: 20px;
+    background-color: var(--color10);
+    /* box-shadow: 0.5px 0.1px 8px 0.01px var(--color1); */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 10px;
+    width: 45px;
+    height: 70%;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-45%);
+    color: white;
+    transition: 0.3s;
+}
+
+.navegacao:hover {
+    width: 215px;
+}
+
+.navegacao:hover .titlo {
+    display: inline;
+}
+
+.titlo {
+    display: none;
+}
+
+.navegacao .nav {
+    text-decoration: none;
+}
+
+.navegacao ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    margin: auto;
+    align-items: center;
+    list-style: none;
+}
+
+.navegacao ul li {
+    line-height: 3em;
+    font-size: 14pt;
+}
+
+.navegacao ul li .icon {
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.navegacao ul li .icon ion-icon {
+    position: relative;
+    top: 50%;
+    transform: translateY(25%);
+    color: white;
+    padding: 10px;
+
+}
+
+.navegacao ul li .titlo {
+    color: white;
+    padding: 3px;
+    position: absolute;
+    width: 180px;
+    font-size: 11pt;
+}
+
+.navegacao ul li:hover {
+    background-color: var(--color1);
+    border-radius: 10px;
+}

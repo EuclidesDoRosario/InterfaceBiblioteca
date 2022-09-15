@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <title>Biblioteca UL</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <h1>Lib<span style="color: rgb(53, 186, 223);">X</span></h1>
+
+        <div id="set-user">
+            <a id="user icon" href="#">
+                <ion-icon name="person-circle-outline"></ion-icon>
+            </a>
+        </div>
+
+    </header>
+
+    <div class="navegacao">
+
+        <ul>
+            <li>
+                <a class="nav" href="#">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Painel de Controlo</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="#">
+                    <span class="icon">
+                        <ion-icon name="copy-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Emprestimos</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="listaestudantes.html">
+                    <span class="icon">
+                        <ion-icon name="duplicate-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Novo Emprestimo</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="#">
+                    <span class="icon">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Livros</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="#">
+                    <span class="icon">
+                        <ion-icon name="bookmarks-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Reserva</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <section id="section">
+
+        <div class="cont">
+            <div class="cont-item">
+                <h4>Emprestimo</h2>
+                    <h2>45</h2>
+            </div>
+
+            <div class="cont-item">
+                <h4>Emprestimo em Atraso</h2>
+                    <h2>15</h2>
+            </div>
+
+            <div class="cont-item">
+                <h4>Reservas</h2>
+                    <h2>10</h2>
+            </div>
+        </div>
+
+        <div class="emprestimo">
+
+            <div class="emprestimo-item item-1">
+
+                <h3 class="card-titlos">Emprestimo em atraso</h3>
+
+                <table id="emprestimo-atrasa">
+                    <tr id="head-list">
+                        <td>Nome</td>
+                        <td>Data Limite</td>
+                    </tr>
+                    <tr class="tr">
+                        <td>Alfreds Futterkiste</td>
+                        <td class="data">23-06-2023</td>
+                    </tr>
+                    <tr class="tr">
+                        <td>Centro comercial Moctezuma</td>
+                        <td class="data">23-06-2023</td>
+                    </tr>
+                    <tr class="tr">
+                        <td>Ernst Handel</td>
+                        <td class="data">23-06-2023</td>
+                    </tr>
+                    <tr class="tr">
+                        <td>Island Trading</td>
+                        <td class="data">23-06-2023</td>
+                    </tr>
+                    <tr class="tr">
+                        <td>Laughing Bacchus Winecellars</td>
+                        <td class="data">23-06-2023</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="emprestimo-item item-2">
+                <h3 class="card-titlos"></h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <aside id="aside">
+
+    </aside>
+
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>

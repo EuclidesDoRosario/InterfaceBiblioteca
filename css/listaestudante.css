@@ -1,0 +1,93 @@
+#section {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#section table {
+    width: 100%;
+    margin-top: 50px;
+    text-align: left;
+    border-spacing: 0px 15px;
+}
+
+#section table tr th {
+    color: var(--color10);
+}
+
+#section table tr td,
+th {
+    height: 50px;
+    border-bottom: 2px solid var(--color1);
+}
+
+#section table .data-list {
+    cursor: pointer;
+}
+
+#section table .clickable-row:hover {
+    background-color: var(--color8);
+}
+
+#pesquisa {
+    width: 500px;
+    display: flex;
+    margin: auto;
+}
+
+#pesquisa input {
+    width: 100%;
+    transform: translateX(15px);
+    border: 2px solid var(--color10);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+#pesquisa a {
+    width: 30px;
+    color: var(--color10);
+    transform: translate(-70%, 15%);
+    top: 50%;
+}
+
+#pesquisa a ion-icon {
+    font-size: 20pt;
+    font-weight: 800;
+    margin: auto;
+    display: block;
+}
+
+.estado {
+    width: 130px;
+    text-align: left;
+    text-align: center;
+}
+
+.nome {
+    padding-left: 25px;
+}
+
+.qtd-livro {
+    padding-left: 9%;
+}
+
+.atraso span {
+    /* border: 2px solid rgba(255, 0, 0, 0.2); */
+    background-color: rgba(255, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 5px;
+    color: rgba(255, 5, 5, 0.8);
+}
+
+
+
+/* .sem-livro {
+    border: 2px solid rgba(36, 193, 83, 0.2);
+    color: rgba(36, 193, 83, 0.8);
+}
+
+.em-posse {
+    border: 2px solid rgba(0, 195, 255, 0.2);
+    color: rgba(0, 195, 255, 0.8);
+} */
