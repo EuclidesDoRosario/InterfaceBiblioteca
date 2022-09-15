@@ -5,13 +5,199 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/lista.css">
     <title>Livros</title>
 </head>
 
 <body>
-    
+
+    <header id="header">
+        <h1>Lib<span style="color: rgb(53, 186, 223);">X</span></h1>
+
+        <div id="set-user">
+            <a id="user icon" href="#">
+                <ion-icon name="person-circle-outline"></ion-icon>
+            </a>
+        </div>
+
+    </header>
+
+    <div class="navegacao">
+
+        <ul>
+            <li>
+                <a class="nav" href="index.html">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Painel de Controlo</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="#">
+                    <span class="icon">
+                        <ion-icon name="copy-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Emprestimos</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="listaestudantes.html">
+                    <span class="icon">
+                        <ion-icon name="duplicate-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Novo Emprestimo</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="listalivros.html">
+                    <span class="icon">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Livros</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="#">
+                    <span class="icon">
+                        <ion-icon name="bookmarks-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Reserva</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <section id="section">
+
+        <div id="pesquisa">
+            <input type="text" name="pesquisa" placeholder="Pesquisar Livro">
+            <a href="#">
+                <ion-icon name="search-outline"></ion-icon>
+            </a>
+        </div>
+
+        <table>
+            <tr class="data-list">
+                <th class="nome">Codigo </th>
+                <th>Nome</th>
+                <th>Autor</th>
+                <th>Titulo</th>
+                <th>Quantidade</th>
+            </tr>
+
+            <tr class="data-list clickable-row" data-href="perfilleitor.html">
+
+                <td class="nome">L258</td>
+                <td>Programação</td>
+                <td>Luis Damas</td>
+                <td>Funsamento de Programação</td>
+                <td class="qtd-livro">3</td>
+
+            </tr>
+
+            <tr class="data-list clickable-row" data-href="perfilleitor.html">
+
+                <td class="nome">L258</td>
+                <td>Programação</td>
+                <td>Luis Damas</td>
+                <td>Funsamento de Programação</td>
+                <td class="qtd-livro">3</td>
+
+            </tr>
+
+            <tr class="data-list clickable-row" data-href="perfilleitor.html">
+
+                <td class="nome">L258</td>
+                <td>Programação</td>
+                <td>Luis Damas</td>
+                <td>Funsamento de Programação</td>
+                <td class="qtd-livro">3</td>
+
+            </tr>
+
+            <tr class="data-list clickable-row" data-href="perfilleitor.html">
+
+                <td class="nome">L258</td>
+                <td>Programação</td>
+                <td>Luis Damas</td>
+                <td>Funsamento de Programação</td>
+                <td class="qtd-livro">3</td>
+
+            </tr>
+
+            <tr class="data-list clickable-row" data-href="perfilleitor.html">
+
+                <td class="nome">L258</td>
+                <td>Programação</td>
+                <td>Luis Damas</td>
+                <td>Funsamento de Programação</td>
+                <td class="qtd-livro">3</td>
+
+            </tr>
+
+            <tr class="data-list clickable-row" data-href="perfilleitor.html">
+
+                <td class="nome">L258</td>
+                <td>Programação</td>
+                <td>Luis Damas</td>
+                <td>Funsamento de Programação</td>
+                <td class="qtd-livro">3</td>
+
+            </tr>
+
+            <tr class="data-list clickable-row" data-href="perfilleitor.html">
+
+                <td class="nome">L258</td>
+                <td>Programação</td>
+                <td>Luis Damas</td>
+                <td>Funsamento de Programação</td>
+                <td class="qtd-livro">3</td>
+
+            </tr>
+
+            <tr class="data-list clickable-row" data-href="perfilleitor.html">
+
+                <td class="nome">L258</td>
+                <td>Programação</td>
+                <td>Luis Damas</td>
+                <td>Funsamento de Programação</td>
+                <td class="qtd-livro">3</td>
+
+            </tr>
+
+        </table>
+
+
+
+
+    </section>
+
+    <aside id="aside">
+
+    </aside>
+
 </body>
+
+<script>
+    jQuery(document).ready(function ($) {
+        $(".clickable-row").click(function () {
+            window.location = $(this).data("href");
+        });
+    });
+</script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </html>
