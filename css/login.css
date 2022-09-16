@@ -8,7 +8,7 @@
 }
 
 .section {
-    height: 590px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@
 
 .section .card-login {
     display: block;
-    height: 590px;
+    height: 100%;
     display: inline-block;
 }
 
