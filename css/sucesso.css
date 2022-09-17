@@ -1,0 +1,55 @@
+#section {
+    height: 50%;
+    transform: translateY(20%);
+    border-radius: 10px;
+    text-align: center;
+    background-color: var(--card-color);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+#section #msg {
+    position: relative;
+    display: block;
+    top: 25%;
+}
+
+#section #msg h3 {
+    color: var(--text-titulo);
+}
+
+#section #msg a {
+    display: block;
+    width: 100px;
+    margin: auto;
+    text-decoration: none;
+    position: relative;
+    background-color: var(--color10);
+    padding: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    border: 2px solid var(--color-border);
+    background-color: var(--input-color);
+    border-radius: 5px;
+    color: var(--text-color);
+}
+
+
+#section div a:hover {
+    background-color: var(--color-border);
+    color: var(--text-color-white);
+}
+
+#section ion-icon {
+    font-size: 30pt;
+    margin-bottom: 30px;
+}
+
+.estado-sucesso {
+    color: var(--sucesso);
+}
+
+.estado-insucesso {
+    color: var(--insucesso);
+}

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dashboard.css">
-    <link rel="stylesheet" href="css/adicionarlivro.css">
+    <link rel="stylesheet" href="css/sucesso.css">
     <title>Biblioteca UL</title>
 </head>
 
@@ -81,48 +81,29 @@
     </div>
 
     <section id="section">
-        <h3>Prencha as Informaçoes do livro</h3>
-        <form action="" method="post">
+        <div id="msg">
 
-            <p>Titulo</p>
-            <input type="text" name="titulo" required>
-            <p>Autor</p>
-            <input type="text" name="autor" required>
-            <p>Isbn</p>
-            <input type="text" name="autor" required>
-            <p>Quantidade Exemplares</p>
-            <input type="number" name="autor" min="1" required>
-            <div class="form-min">
-                <span>
-                    <p>Editora</p>
-                    <input type="text" name="autor" required>
-                </span>
-                <span>
-                    <p>Edição</p>
-                    <input type="text" name="autor" required>
-                </span>
-            </div>
-            <div class="form-min">
-                <span>
-                    <p>Volume</p>
-                    <input type="number" name="autor" required>
-                </span>
-                <span>
-                    <p>Ano</p>
-                    <input type="number" name="autor" required min="1000">
-                </span>
-            </div> <br>
+            <!-- inssucesso -->
+            <ion-icon class="estado-insucesso" name="alert-outline"></ion-icon>
 
+            <!-- sucesso -->
+            <ion-icon class="estado-sucesso" name="checkmark-done-outline"></ion-icon>
 
-            <a href="sucesso.html"><input id="submit" type="submit" value="Cadastrar"></a>
-
-        </form>
+            <h3>Menssagem</h3>
+            <a>Fechar</a>
+        </div>
 
     </section>
 
     <aside id="aside">
 
+        <span class="logout">
+            <ion-icon name="log-out-outline"></ion-icon>
+        </span>
+
     </aside>
+
+
 
 </body>
 

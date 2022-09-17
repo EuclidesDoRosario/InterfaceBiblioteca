@@ -16,7 +16,8 @@ body {
     --text-color: black;
     --text-color-white: white;
     --bg-btn: hsla(0, 0%, 100%, 0.2);
-
+    --sucesso: rgb(94, 194, 152);
+    --insucesso: rgb(251, 132, 132);
 }
 
 .dark {
@@ -29,4 +30,6 @@ body {
     --bg-color: #2C3030;
     --text-color: rgb(240, 240, 240);
     --text-color-white: rgb(216, 216, 216);
+    --sucesso: rgb(79, 167, 130);
+    --insucesso: rgb(214, 119, 119);
 }
