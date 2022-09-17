@@ -34,7 +34,7 @@ body,
 header,
 #tema,
 #set-user a ion-icon {
-    background-color: var(--bg-color) !important;
+    background-color: var(--bg-color);
     color: var(--text-color);
 }
 
@@ -60,7 +60,6 @@ header,
     position: fixed;
     margin-left: 20px;
     background-color: var(--color10);
-    /* box-shadow: 0.5px 0.1px 8px 0.01px var(--color1); */
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
         rgba(17, 17, 26, 0.1) 0px 8px 24px,
         rgba(17, 17, 26, 0.1) 0px 16px 56px;
@@ -161,4 +160,120 @@ header,
     font-size: 22pt;
     margin-right: 10px;
     cursor: pointer;
+}
+
+.space {
+    display: none;
+}
+
+@media only screen and (max-width: 980px) {
+
+
+    #header {
+        position: fixed;
+        z-index: 10;
+        width: 100%;
+        background-color: var(--bg-color);
+    }
+
+    .space {
+        display: block;
+    }
+
+    .item-2 {
+        display: none !important;
+    }
+
+    .logout {
+        background-color: var(--color-border);
+    }
+
+    #aside {
+        left: 83% !important;
+        top: 83% !important;
+        height: 0 !important;
+    }
+
+    #header h1,
+    #set-user {
+        margin-right: 5%;
+    }
+
+    .logout:active {
+        left: 83% !important;
+        left: 60% !important;
+    }
+
+    #section {
+        margin: 0px !important;
+        width: 100% !important;
+    }
+
+    #section .cont-item {
+        border-radius: 0px;
+        box-shadow: none;
+        padding: 20px 0px;
+    }
+
+    .cont-item h4 {
+        font-size: 0.8rem;
+    }
+
+    .cont-item {
+        width: 100% !important;
+    }
+
+    .emprestimo {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100% !important;
+    }
+
+    .emprestimo-item {
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 0 !important;
+    }
+
+
+
+    .emprestimo-item h3 {
+        text-align: center;
+    }
+
+    .navegacao ul {
+        display: flex;
+        margin: auto;
+        position: relative;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .navegacao ul li {
+        position: relative;
+    }
+
+    .navegacao .titlo {
+        display: none;
+    }
+
+    .navegacao {
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+        top: 95%;
+        height: 70px;
+        border-radius: 0px;
+        /* transform: translateY(-45%); */
+    }
+
+    .navegacao:hover,
+    .titlo {
+        width: 100%;
+    }
+
+    .navegacao:hover .titlo {
+        display: none;
+    }
+
 }
