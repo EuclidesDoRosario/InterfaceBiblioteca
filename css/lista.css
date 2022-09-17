@@ -3,7 +3,9 @@
     margin: auto;
     margin-top: 50px !important;
     padding: 10px;
+    overflow-y: auto;
 }
+
 
 #section table {
     width: 100%;
@@ -111,4 +113,13 @@ th {
 #add-livro:hover {
     background-color: var(--color7);
     transition: 0.3s;
+}
+
+@media only screen and (max-width: 980px) {
+    #section {
+
+        margin-top: 0px !important;
+
+
+    }
 }
