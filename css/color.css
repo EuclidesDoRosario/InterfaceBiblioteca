@@ -10,6 +10,7 @@ body {
     --color7: #64c4ea82;
     --color8: #84c9e539;
     --card-color: white;
+    --input-color: white;
     --text-titulo: #3190b6;
     --color-border: #3190b6;
     --text-color: black;
@@ -23,7 +24,8 @@ body {
     --color10: #404747;
     --text-titulo: rgb(216, 216, 216);
     --card-color: #404747;
+    --input-color: #ffffff17;
     --bg-color: #2C3030;
-    --text-color: rgb(216, 216, 216);
+    --text-color: rgb(240, 240, 240);
     --text-color-white: rgb(216, 216, 216);
 }

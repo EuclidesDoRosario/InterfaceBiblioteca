@@ -5,13 +5,15 @@ section#section-leitor {
     width: 900px;
     height: 480px;
     margin: auto;
-    margin-top: 45px;
+    margin-top: 4%;
     display: flex;
     justify-content: space-around;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
         rgba(17, 17, 26, 0.1) 0px 8px 24px,
         rgba(17, 17, 26, 0.1) 0px 16px 56px;
     border-radius: 10px;
+    background-color: var(--card-color);
+
 }
 
 div#info-leitor {

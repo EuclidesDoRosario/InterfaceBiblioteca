@@ -5,10 +5,17 @@
         rgba(17, 17, 26, 0.1) 0px 16px 56px;
     border-radius: 10px;
     background-color: var(--card-color);
+    height: 100%;
+}
+
+html, body {
+    height: 110%;
 }
 
 #section h3 {
     text-align: center;
+    margin-bottom: 5%;
+    font-size: 16pt;
 }
 
 #section form {
@@ -16,6 +23,10 @@
     display: block;
     margin: auto;
     width: 50%;
+} 
+
+#section form p, h3 {
+    font-size: 14pt;
 }
 
 #section form input {
@@ -23,6 +34,13 @@
     margin-bottom: 15px;
     padding: 8px;
     border: 2px solid var(--color-border);
-    background-color: var(--text-color-white);
+    background-color: var(--input-color);
     border-radius: 5px;
+    color: var(--text-color);
+}
+
+#submit {
+    width: 100px !important;
+    display: block;
+    margin: 20px auto;
 }
