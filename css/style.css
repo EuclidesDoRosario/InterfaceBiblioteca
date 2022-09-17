@@ -132,3 +132,33 @@ header,
     background-color: var(--color1);
     border-radius: 10px;
 }
+
+#aside a {
+    text-decoration: none !important;
+}
+
+.logout {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    top: 90%;
+    padding: 10px 30px;
+    font-size: 15pt;
+    background-color: var(--bg-btn);
+    color: var(--text-color-white) !important;
+}
+
+.logout:hover {
+    background-color: var(--color7);
+    transition: 0.3s;
+}
+
+.logout label {
+    cursor: pointer;
+}
+
+.logout ion-icon {
+    font-size: 22pt;
+    margin-right: 10px;
+    cursor: pointer;
+}
