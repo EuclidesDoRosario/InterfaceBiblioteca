@@ -80,7 +80,7 @@
 
     </div>
 
-    <section id="section"> 
+    <section id="section">
         <h3>Prencha as Informaçoes do livro</h3>
         <form action="#" method="post">
 
@@ -92,14 +92,27 @@
             <input type="text" name="autor" required>
             <p>Quantidade Exemplares</p>
             <input type="number" name="autor" min="1" required>
-            <p>Editora</p>
-            <input type="text" name="autor" required>
-            <p>Edição</p>
-            <input type="text" name="autor" required>
-            <p>Volume</p>
-            <input type="number" name="autor" required>
-            <p>Ano</p>
-            <input type="number" name="autor" required min="1000"> <br>
+            <div class="form-min">
+                <span>
+                    <p>Editora</p>
+                    <input type="text" name="autor" required>
+                </span>
+                <span>
+                    <p>Edição</p>
+                    <input type="text" name="autor" required>
+                </span>
+            </div>
+            <div class="form-min">
+                <span>
+                    <p>Volume</p>
+                    <input type="number" name="autor" required>
+                </span>
+                <span>
+                    <p>Ano</p>
+                    <input type="number" name="autor" required min="1000">
+                </span>
+            </div> <br>
+
 
             <input id="submit" type="submit" value="Cadastrar">
 

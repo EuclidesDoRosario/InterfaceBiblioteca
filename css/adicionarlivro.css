@@ -5,20 +5,23 @@
         rgba(17, 17, 26, 0.1) 0px 16px 56px;
     border-radius: 10px;
     background-color: var(--card-color);
-    height: 100%;
+    height: 950px;
     margin-bottom: 100px !important;
     position: relative;
 }
 
 html,
 body {
-    height: 110%;
+    height: 120%;
+    padding-bottom: 300px;
 }
 
 #section h3 {
     text-align: center;
+    margin-top: 6%;
     margin-bottom: 5%;
     font-size: 16pt;
+    color: var(--text-titulo);
 }
 
 #section form {
@@ -26,7 +29,7 @@ body {
     line-height: 1.5;
     display: block;
     margin: auto;
-    width: 50%;
+    width: 70%;
 }
 
 #section form p,
@@ -55,4 +58,13 @@ h3 {
 #submit:hover {
     background-color: var(--color-border);
     color: var(--text-color-white);
+}
+
+div.form-min span {
+    width: 48%;
+}
+
+div.form-min{
+    display: flex;
+    justify-content: space-between;
 }
