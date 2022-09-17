@@ -1,6 +1,7 @@
 body {
     --color1: #04a5e487;
     --color10: #3190b6;
+    --color10-x: #3190b6;
     --color10-2: hsla(197, 58%, 45%, 0.8);
     --color2: #7cd8fc;
     --color3: #042c5c;
@@ -14,6 +15,7 @@ body {
     --text-titulo: #3190b6;
     --color-border: #3190b6;
     --text-color: black;
+    --text-color-inverso: #2f647a;
     --text-color-white: white;
     --bg-btn: hsla(0, 0%, 100%, 0.2);
     --sucesso: rgb(94, 194, 152);
@@ -24,6 +26,7 @@ body {
 .dark {
     --bg-btn: #3190b6;
     --color10: #404747;
+    --text-color-inverso: rgb(216, 216, 216);
     --text-titulo: rgb(216, 216, 216);
     --card-color: #404747;
     --color-border: #3190b640;

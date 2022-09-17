@@ -1,0 +1,66 @@
+#section {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px,
+        rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+    border-radius: 10px;
+    height: 90%;
+    background-color: var(--card-color);
+}
+
+#detalhe-livro {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 2;
+    top: 50%;
+    transform: translateY(10%);
+    font-size: 16pt;
+}
+
+#detalhe-livro ion-icon {
+    font-size: 50pt;
+    margin-bottom: 40px;
+    color: var(--text-color-inverso);
+}
+
+#detalhe-livro label {
+    color: var(--color10-x);
+}
+
+#detalhe-livro span {
+    color: var(--text-color-inverso);
+    font-size: 16pt;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.fechar {
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid var(--color-border);
+    background-color: var(--input-color);
+    border-radius: 5px;
+    color: var(--text-color-inverso);
+}
+
+.fechar:hover {
+    background-color: var(--color-border);
+    color: var(--text-color-white);
+}
+
+
+@media only screen and (max-width: 980px) {
+    #detalhe-livro {
+        width: 100%;
+    }
+
+    .detalhe-livro {
+        width: 100%;
+    }
+}

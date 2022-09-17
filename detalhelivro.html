@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/detalhelivro.css">
+    <title>Biblioteca UL</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <h1>Lib<span style="color: rgb(53, 186, 223);">X</span></h1>
+
+        <div id="set-user">
+
+            <button id="tema">
+                <ion-icon name="contrast-outline"></ion-icon>
+            </button>
+
+            <a id="user" href="#">
+                <ion-icon name="person-circle-outline"></ion-icon>
+            </a>
+        </div>
+
+    </header>
+
+    <div class="navegacao">
+
+        <ul>
+            <li>
+                <a class="nav" href="#">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Painel de Controlo</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="listaemprestimos.html">
+                    <span class="icon">
+                        <ion-icon name="copy-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Emprestimos</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="listaestudantes.html">
+                    <span class="icon">
+                        <ion-icon name="duplicate-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Novo Emprestimo</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="listalivros.html">
+                    <span class="icon">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Livros</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="nav" href="#">
+                    <span class="icon">
+                        <ion-icon name="bookmarks-outline"></ion-icon>
+                    </span>
+                    <span class="titlo">Reserva</span>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <br class="space" />
+    <br class="space" />
+    <br class="space" />
+    <br class="space" />
+
+    <section id="section">
+
+        <div id="detalhe-livro">
+            <ion-icon name="book-outline"></ion-icon><br>
+            <span>Titulo: </span> <label> Programacao em C</label><br>
+            <span>Autor: </span> <label> Luis Damas</label><br>
+            <span>ISBN: </span> <label> 1231332</label><br>
+            <span>Quanidade Exemplares: </span> <label> 4</label><br>
+            <span>Editora: </span> <label> Porto Alegre</label><br>
+            <span>Edição: </span> <label> 6</label><br>
+            <span>Volume: </span> <label> 1</label><br>
+            <span>Ano: </span> <label> 2001</label><br><br>
+            <a href="#" class="fechar">Fechar</a>
+        </div>
+
+    </section>
+
+    <aside id="aside">
+        <a href="#">
+            <span class="logout">
+                <ion-icon name="log-out-outline"></ion-icon>
+                <label>Sair</label>
+            </span>
+        </a>
+    </aside>
+
+</body>
+
+<script src="js/tema.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>
