@@ -67,7 +67,8 @@ div#livro-leitor table {
 div#livro-leitor div {
     border-radius: 5px solid var(--color10);
     margin: auto;
-    transform: translateY(20%);
+    margin-top: 20px;
+    transform: translateY(3%)
 }
 
 div#btn-add-remove {
@@ -172,12 +173,12 @@ div#livro-leitor div .remover {
 
     #scrolex {
         overflow: auto;
-        
+
     }
 
-     #scrolex table {
-         width: 150%;
-     }
+    #scrolex table {
+        width: 150%;
+    }
 
     div#livro-leitor {
         width: 100%;
