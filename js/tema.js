@@ -1,6 +1,7 @@
 const button = document.getElementById("tema");
 const tema = window.localStorage.getItem("tema");
 
+
 if (tema === "dark") document.body.classList.add("dark");
 
 
@@ -15,3 +16,4 @@ button.addEventListener("click", () => {
     }
 
 });
+
