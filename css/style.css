@@ -205,8 +205,8 @@ header,
     }
 
     #section {
-        margin: 0px !important;
-        width: 100% !important;
+        margin: 0px auto !important;
+        width: 95% !important;
     }
 
     #section .cont-item {

@@ -3,15 +3,21 @@
     margin: auto;
     margin-top: 50px !important;
     padding: 10px;
-    overflow-y: auto;
+
 }
 
+.scrollx {
+    overflow-y: scroll !important;
+    height: 100%;
+}
 
 #section table {
     width: 100%;
+    min-width: 800px;
     margin-top: 50px;
     text-align: left;
     border-spacing: 0px 15px;
+    overflow-y: scroll !important;
 }
 
 #section table tr th {
@@ -33,7 +39,7 @@ th {
 }
 
 #pesquisa {
-    width: 500px;
+    width: 60%;
     display: flex;
     margin: auto;
 }
@@ -122,4 +128,5 @@ th {
 
 
     }
+
 }
