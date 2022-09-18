@@ -139,3 +139,47 @@ div#livro-leitor div .remover {
     padding: 5px;
     color: rgba(29, 173, 101, 0.993);
 }
+
+@media only screen and (max-width: 980px) {
+
+    body,
+    html {
+        height: 130% !important;
+    }
+
+    #section-leitor {
+        width: 100% !important;
+        height: 100% !important;
+        margin-top: 0px !important;
+    }
+
+    div#livro-leitor div .remover {
+        margin: 5px;
+    }
+
+    #info-leitor {
+        height: 0%;
+    }
+
+    div#livro-leitor div {
+        transform: translateY(0%);
+    }
+
+    #section-leitor {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #scrolex {
+        overflow: auto;
+        
+    }
+
+     #scrolex table {
+         width: 150%;
+     }
+
+    div#livro-leitor {
+        width: 100%;
+    }
+}
