@@ -88,8 +88,12 @@ div#livro-leitor div .remover ion-icon {
     cursor: pointer;
 }
 
-div#livro-leitor div .remover {
+#btn-add-remove label {
     cursor: pointer;
+}
+
+div#livro-leitor div .remover {
+    cursor: pointer !important;
     background-color: var(--color10);
     display: block;
     width: 140px;
