@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/adicionarlivro.css">
     <title>Biblioteca UL</title>
 </head>
 
@@ -79,71 +80,59 @@
 
     </div>
 
-    <!-- <br class="space" />
-    <br class="space" />
-    <br class="space" />
-    <br class="space" /> -->
-
     <section id="section">
+        <h3>Prencha os dados do Leitor</h3>
+        <form action="" method="post">
 
-        <div class="cont">
-            <div class="cont-item">
-                <h4>Emprestimo</h2>
-                    <h2>45</h2>
-            </div>
+            <p>Nome</p>
+            <input type="text" name="titulo" required>
+            <p>Email</p>
+            <input type="email" name="autor" required>
+            <p>Curso</p>
+            <select name="curso" class="select">
+                <option>Ciências Biologicas</option>
+                <option>Engenharia Informática</option>
+                <option>Engenharia Mecanica</option>
+                <option>Engenharia Geologica</option>
+                <option>Engenharia Civil</option>
+            </select>
+            <!-- <p>Quantidade Exemplares</p>
+            <input type="number" name="autor" min="1" required> -->
+            <!-- <div class="form-min">
+                <span>
+                    <p>Editora</p>
+                    <input type="text" name="autor" required>
+                </span>
+                <span>
+                    <p>Edição</p>
+                    <input type="text" name="autor" required>
+                </span>
+            </div>-->
+            <div class="form-min">
+                <span>
+                    <p>Tipo de Leitor</p>
+                    <select name="tipo-leitor" class="select">
+                        <option value="1">Estudante</option>
+                        <option value="2">Docente</option>
+                    </select>
+                </span>
+                <span>
+                    <p>Nivel</p>
+                    <select name="nivel" class="select">
+                        <option value="1">1 Ano</option>
+                        <option value="2">2 Ano</option>
+                        <option value="3">3 Ano</option>
+                        <option value="4">4 Ano</option>
+                        <option value="5">5 Ano</option>
+                        <option value="docente">Docente</option>
+                    </select>
+                </span>
+            </div> <br>
 
-            <div class="cont-item">
-                <h4>Emprestimo em Atraso</h2>
-                    <h2>15</h2>
-            </div>
 
-            <div class="cont-item">
-                <h4>Reservas</h2>
-                    <h2>10</h2>
-            </div>
-        </div>
+            <input id="submit" type="submit" value="Cadastrar">
 
-        <div class="emprestimo">
-
-            <div class="emprestimo-item item-1">
-
-                <h3 class="card-titlos">Emprestimo em atraso</h3>
-
-                <table id="emprestimo-atrasa">
-                    <tr id="head-list">
-                        <td>Nome</td>
-                        <td>Data Limite</td>
-                    </tr>
-                    <tr class="tr">
-                        <td>Alfreds Futterkiste</td>
-                        <td class="data">23-06-2023</td>
-                    </tr>
-                    <tr class="tr">
-                        <td>Centro comercial Moctezuma</td>
-                        <td class="data">23-06-2023</td>
-                    </tr>
-                    <tr class="tr">
-                        <td>Ernst Handel</td>
-                        <td class="data">23-06-2023</td>
-                    </tr>
-                    <tr class="tr">
-                        <td>Island Trading</td>
-                        <td class="data">23-06-2023</td>
-                    </tr>
-                    <tr class="tr">
-                        <td>Laughing Bacchus Winecellars</td>
-                        <td class="data">23-06-2023</td>
-                    </tr>
-                </table>
-
-            </div>
-
-            <div class="emprestimo-item item-2">
-                <h3 class="card-titlos"></h3>
-
-            </div>
-
-        </div>
+        </form>
 
     </section>
 

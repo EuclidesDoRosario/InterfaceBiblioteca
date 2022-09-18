@@ -276,4 +276,8 @@ header,
         display: none;
     }
 
+    #section {
+        transform: translateY(20%);
+    }
+
 }
