@@ -5,10 +5,12 @@
         rgba(17, 17, 26, 0.1) 0px 16px 56px;
     border-radius: 10px;
     background-color: var(--card-color);
-    height: 950px;
+    height: 70%;
     margin-bottom: 100px !important;
     position: relative;
 }
+
+
 
 html,
 body {
