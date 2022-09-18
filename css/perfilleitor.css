@@ -76,11 +76,19 @@ div#btn-add-remove {
     justify-content: space-around;
 }
 
-div#livro-leitor div a ion-icon {
+div#livro-leitor div .remover ion-icon {
     font-size: large;
 }
 
-div#livro-leitor div a {
+#sub {
+    border: 0px;
+    background-color: var(--color10);
+    color: white;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+div#livro-leitor div .remover {
     cursor: pointer;
     background-color: var(--color10);
     display: block;
@@ -111,7 +119,7 @@ div#livro-leitor div a {
 }
 
 .remover {
-    background-color: grey !important;
+    background-color: var(--color10) !important;
 }
 
 #livro-leitor span.atrasado {
