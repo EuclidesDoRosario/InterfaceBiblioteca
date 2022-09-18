@@ -4,24 +4,37 @@
         rgba(17, 17, 26, 0.1) 0px 16px 56px;
 
     border-radius: 10px;
-    height: 90%;
+    height: 80%;
     background-color: var(--card-color);
 }
 
 #detalhe-livro {
-    width: 50%;
     margin: auto;
     padding: 20px;
-    text-align: center;
+    width: 75%;
     line-height: 2;
     top: 50%;
-    transform: translateY(10%);
     font-size: 16pt;
+}
+
+.flexed {
+    display: flex;
+    justify-content: space-around;
+}
+
+.center {
+    text-align: center;
+    color: var(--text-color-inverso);
+    margin: 50px auto 50px;
+}
+
+#detalhe-livro .detalhe-in img {
+    border-radius: 10px;
 }
 
 #detalhe-livro ion-icon {
     font-size: 50pt;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     color: var(--text-color-inverso);
 }
 
@@ -36,8 +49,9 @@
     margin-right: 10px;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+    height: 110%;
 }
 
 .fechar {
@@ -47,6 +61,10 @@ html, body {
     background-color: var(--input-color);
     border-radius: 5px;
     color: var(--text-color-inverso);
+    display: block;
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
 }
 
 .fechar:hover {
