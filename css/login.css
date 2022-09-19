@@ -112,3 +112,29 @@ form span {
     background-color: var(--color10);
     color: white;
 }
+
+@media only screen and (max-width: 980px) {
+
+    .section {
+
+        height: 100%;
+    }
+
+    .section .card-login {
+        display: block !important;
+    }
+
+    #img-login {
+        display: none !important;
+    }
+
+    #form {
+        width: 100%;
+        margin: 0px;
+        background-image: url("../imagem/lurio1.png");
+        background-repeat: no-repeat;
+        background-color: white !important;
+        background-size: 100pt;
+    }
+
+}
