@@ -28,6 +28,10 @@
     margin: 50px auto 50px;
 }
 
+.detalhe-in {
+    margin: 10px;
+}
+
 #detalhe-livro .detalhe-in img {
     border-radius: 10px;
 }
@@ -74,8 +78,49 @@ body {
 
 
 @media only screen and (max-width: 980px) {
-    #detalhe-livro {
+
+    #section {
+        position: relative;
+        display: block;
+        margin: auto !important;
+        width: 80% !important;
+        height: 200% !important;
+        box-shadow: none;
+
+    }
+
+
+    #detalhe-livro ion-icon {
+        text-align: center;
+        display: block;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .detalhe-in {
+        margin: auto;
+        margin: 0px;
+    }
+
+    html,
+    body {
         width: 100%;
+        height: 100%;
+    }
+
+    #detalhe-livro {
+        /* width: 100%; */
+    }
+
+    .flexed {
+        position: relative;
+        flex-wrap: wrap;
+        width: 100% !important;
+        margin: auto;
+    }
+
+    .space {
+        display: none;
     }
 
     .detalhe-livro {
